@@ -1,0 +1,24 @@
+#mipstest.asm
+#test the mips processor
+#add, sub, and, or, slt, addi, lw, sw, beq, j
+#if succesful, it should write the value 7 to address 84
+
+#        assembly              address          machine
+main:    addi $2,$0,5            # 0          20020005
+         addi $3,$0,12           #4           2003000c
+         addi $7,$3,-9           # 8          2067fff7
+         or   $4,$7,$2           #c           00e22025
+         and  $5,$3,$4           #10          00642824
+         add  $5,$5,$4           #14          00a42820
+         beq  $5,$7,end          #18          10a7000a
+         slt  $4,$3,$4           #1c          0064202a
+         beq  $4,$0,around       #20          10800001
+         addi $5,$0,0            #24          20050000
+around:  slt  $4,$7,$2           #28          00e2202a
+         add  $7,$4,$5           #2c          00853820
+         sub  $7,$7,$2           #30          00e23822
+         sw   $7,68($3)          #34          ac670044
+         lw   $2,80($0)          #38          8c020050
+         j    end                #3c          08000011
+         addi $2,$0,1            #40          20020001
+end:     sw   $2,84($0)          #44          ac020054

@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+mips instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .pc(pc), 
+    .instr(instr), 
+    .memwrite(memwrite), 
+    .aluout(aluout), 
+    .writedata(writedata), 
+    .readdata(readdata)
+    );
+
+

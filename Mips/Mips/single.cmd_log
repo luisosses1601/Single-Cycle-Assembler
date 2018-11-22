@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Osses/Mips/Mips/single.xst" -ofn "C:/Users/Osses/Mips/Mips/single.syr" 

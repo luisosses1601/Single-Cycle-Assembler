@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Osses/Mips/Mips/mipsT_isim_beh.exe" -prj "C:/Users/Osses/Mips/Mips/mipsT_beh.prj" "work.mipsT" 
