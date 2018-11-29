@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-11-21T23:45:43</DateModified>
+  <DateModified>2018-11-29T08:00:00</DateModified>
   <ModuleName>mips</ModuleName>
-  <SummaryTimeStamp>2018-11-21T22:30:08</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Osses/Mips/Mips/iseconfig/mips.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Osses/Mips/Mips\</ImplementationReportsDirectory>
-  <DateInitialized>2018-10-27T23:45:46</DateInitialized>
+  <SummaryTimeStamp>2018-11-28T22:11:20</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/Osses/Documents/Modulos mips/Mipss/iseconfig/mips.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Osses/Documents/Modulos mips/Mipss\</ImplementationReportsDirectory>
+  <DateInitialized>2018-11-06T17:49:11</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>
